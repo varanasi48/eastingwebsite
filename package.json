@@ -1,11 +1,18 @@
 {
   "devDependencies": {
-    "react-error-overlay": "^6.0.9"
+    "react-error-overlay": "^6.0.9",
+    "webpack-cli": "^5.1.1"
   },
   "dependencies": {
+    "react-app-rewired": "^1.6.2",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "serve": "^14.2.0",
     "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

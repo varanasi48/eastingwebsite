@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Mogra");
+
+.skipLink a {
+  color: brown;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+
+.skipLink a:focus {
+ 
+  
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  
+  
+}
+h5.item{
+  font-family: 'Mogra',cursive;
+}
+h3{
+  font-family: 'Mogra',cursive;
+  color: beige;
+}

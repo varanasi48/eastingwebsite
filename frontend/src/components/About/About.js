@@ -8,7 +8,7 @@ const About = () => {
       <div className="row justify-content-center mt-5 p-0">
         
         <p>
-          This is the testing of fonts
+          This is the testing of git
         </p>
         
         
